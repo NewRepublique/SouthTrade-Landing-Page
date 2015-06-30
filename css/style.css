@@ -37,6 +37,26 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
 .panel#hero h2 {
   margin-bottom: 30px; }
 
+.passStrengthify {
+  width: 100%;
+  display: block !important; }
+  .passStrengthify .strength {
+    width: 14.28571% !important;
+    margin-right: 0 !important;
+    display: inline-block;
+    height: 20px !important;
+    max-height: none !important;
+    border-top: 1px solid #1c2123;
+    border-bottom: 1px solid #1c2123;
+    border-right: none;
+    -webkit-transition: background-color, 600ms;
+    -moz-transition: background-color, 600ms;
+    -transition: background-color, 600ms; }
+  .passStrengthify .strength:last-of-type {
+    border-right: 1px solid #1c2123; }
+  .passStrengthify .strength:first-of-type {
+    border-left: 1px solid #1c2123; }
+
 .panel {
   padding: 50px 0; }
   @media screen and (max-width: 1090px) {

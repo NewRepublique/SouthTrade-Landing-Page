@@ -1,0 +1,18 @@
+.passStrengthify 
+	width: 100%
+	display: block!important
+	.strength
+		width: 14.28571428571429%!important
+		margin-right: 0!important
+		display: inline-block
+		height: 20px!important
+		max-height: none!important
+		//background: none!important
+		border-top: 1px solid $black
+		border-bottom: 1px solid $black
+		border-right: none
+		+animate(background-color, 600ms)
+	.strength:last-of-type 
+		border-right: 1px solid $black
+	.strength:first-of-type
+		border-left: 1px solid $black
