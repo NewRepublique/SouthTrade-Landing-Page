@@ -1,8 +1,27 @@
 $serif: 'BodoniBT-Book', "Georgia", serif
 $heading: 'Sheldon', "Helvetica Neue", "Helvetica", "Arial", sans-serif
 
-h1 
-	font-family: $heading
-
 h2 
+	font-family: $heading
+	color: $yellow
+	font-size: 110px
+	line-height: 106px
+
+h3 
+	font-size: 25px
+.subheading 
 	font-family: $serif
+	color: $light-grey
+
+// class to reverse out the <span> in headings
+.reverse
+	h1, h2, h3, h4, h5, h6 
+		span
+			color: #fff
+	p 
+		color: #fff
+
+// exception for the margin on the heading in the hero panel
+.panel#hero 
+	h2 
+		margin-bottom: 30px

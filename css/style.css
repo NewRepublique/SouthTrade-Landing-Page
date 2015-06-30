@@ -1,7 +1,54 @@
-h1 {
-  font-family: "Sheldon", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
-
 h2 {
-  font-family: "BodoniBT-Book", "Georgia", serif; }
+  font-family: "Sheldon", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #fec371;
+  font-size: 110px;
+  line-height: 106px; }
+
+h3 {
+  font-size: 25px; }
+
+.subheading {
+  font-family: "BodoniBT-Book", "Georgia", serif;
+  color: #8a9193; }
+
+.reverse h1 span, .reverse h2 span, .reverse h3 span, .reverse h4 span, .reverse h5 span, .reverse h6 span {
+  color: #fff; }
+.reverse p {
+  color: #fff; }
+
+.panel#hero h2 {
+  margin-bottom: 30px; }
+
+.panel {
+  padding: 50px 0; }
+  @media screen and (max-width: 1090px) {
+    .panel {
+      padding: 50px 20px; } }
+
+.panel#hero {
+  background-color: #1c2123; }
+
+.header-image {
+  margin-bottom: 36px;
+  display: block; }
+  @media screen and (max-width: 1090px) {
+    .header-image {
+      width: 200px; } }
+
+.hero-illo {
+  position: absolute;
+  width: auto;
+  max-width: none;
+  top: 130px; }
+  @media screen and (max-width: 1250px) {
+    .hero-illo {
+      width: 510px;
+      top: 240px; } }
+  @media screen and (max-width: 1090px) {
+    .hero-illo {
+      width: 460px; } }
+  @media screen and (max-width: 1030px) {
+    .hero-illo {
+      display: none; } }
 
 /*# sourceMappingURL=style.css.map */
