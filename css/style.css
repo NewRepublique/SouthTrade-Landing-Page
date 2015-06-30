@@ -1,3 +1,6 @@
+p {
+  color: #8a9193; }
+
 h2 {
   font-family: "Sheldon", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   color: #fec371;
@@ -10,6 +13,9 @@ h3 {
 .subheading {
   font-family: "BodoniBT-Book", "Georgia", serif;
   color: #8a9193; }
+
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+  color: #1c2123; }
 
 .reverse h1 span, .reverse h2 span, .reverse h3 span, .reverse h4 span, .reverse h5 span, .reverse h6 span {
   color: #fff; }
@@ -27,6 +33,23 @@ h3 {
 
 .panel#hero {
   background-color: #1c2123; }
+
+.content-panel {
+  padding: 100px 0; }
+
+.panel.grey {
+  background-color: #394144; }
+
+.prize-list {
+  margin-top: 115px;
+  text-align: center; }
+  .prize-list img {
+    display: block;
+    margin: 0 auto; }
+  .prize-list .subheading {
+    font-size: 35px;
+    color: #1c2123;
+    margin-top: 30px; }
 
 .header-image {
   margin-bottom: 36px;
