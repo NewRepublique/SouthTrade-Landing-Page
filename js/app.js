@@ -5,4 +5,11 @@ $(document).ready(function(){
 		element: $('#pw-strength'),
 		security: 3
 	});
+
+	$('#onPremise').click(function(){
+		$('#capacity').show()
+	})
+	$('#offPremise').click(function(){
+		$('#capacity').hide()
+	})
 })
