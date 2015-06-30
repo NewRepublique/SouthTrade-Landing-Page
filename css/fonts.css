@@ -1,0 +1,75 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2789703, 2014-04-06T22:50:12-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Bodoni Book by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/atf-bodoni/bodoni-book/
+ * 
+ * Webfont: Bodoni Book Italic by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/atf-bodoni/bodoni-book-italic/
+ * 
+ * Webfont: Bodoni Bold by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/atf-bodoni/bodoni-bold/
+ * 
+ * Webfont: Bodoni Bold Italic by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/atf-bodoni/bodoni-bold-italic/
+ * 
+ * Webfont: Bodoni by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/atf-bodoni/bodoni/
+ * 
+ * Webfont: Bodoni Italic by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/atf-bodoni/bodoni-italic/
+ * 
+ * Webfont: Bodoni Bold Condensed by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/atf-bodoni/bodoni-bold-condensed/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2789703
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2a9147");
+@import url("//hello.myfonts.net/count/2e8b9a");
+
+  
+@font-face {font-family: 'BodoniBT-Book';src: url('../fonts/2A9147_0_0.eot');src: url('../fonts/2A9147_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2A9147_0_0.woff') format('woff'),url('../fonts/2A9147_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BodoniBT-BookItalic';src: url('../fonts/2A9147_1_0.eot');src: url('../fonts/2A9147_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2A9147_1_0.woff') format('woff'),url('../fonts/2A9147_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BodoniBT-Bold';src: url('../fonts/2A9147_2_0.eot');src: url('../fonts/2A9147_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2A9147_2_0.woff') format('woff'),url('../fonts/2A9147_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BodoniBT-BoldItalic';src: url('../fonts/2A9147_3_0.eot');src: url('../fonts/2A9147_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2A9147_3_0.woff') format('woff'),url('../fonts/2A9147_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BodoniBT-Roman';src: url('../fonts/2A9147_4_0.eot');src: url('../fonts/2A9147_4_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2A9147_4_0.woff') format('woff'),url('../fonts/2A9147_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BodoniBT-Italic';src: url('../fonts/2A9147_5_0.eot');src: url('../fonts/2A9147_5_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2A9147_5_0.woff') format('woff'),url('../fonts/2A9147_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BodoniBT-BoldCondensed';src: url('../fonts/2A9147_6_0.eot');src: url('../fonts/2A9147_6_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2A9147_6_0.woff') format('woff'),url('../fonts/2A9147_6_0.ttf') format('truetype');}
+
+@font-face {font-family: 'SheldonPictures';src: url('webfonts/2E8B9A_0_0.eot');src: url('webfonts/2E8B9A_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E8B9A_0_0.woff2') format('woff2'),url('webfonts/2E8B9A_0_0.woff') format('woff'),url('webfonts/2E8B9A_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'SheldonFly';src: url('webfonts/2E8B9A_1_0.eot');src: url('webfonts/2E8B9A_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E8B9A_1_0.woff2') format('woff2'),url('webfonts/2E8B9A_1_0.woff') format('woff'),url('webfonts/2E8B9A_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Sheldon';src: url('webfonts/2E8B9A_2_0.eot');src: url('webfonts/2E8B9A_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E8B9A_2_0.woff2') format('woff2'),url('webfonts/2E8B9A_2_0.woff') format('woff'),url('webfonts/2E8B9A_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'SheldonFeather';src: url('webfonts/2E8B9A_3_0.eot');src: url('webfonts/2E8B9A_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E8B9A_3_0.woff2') format('woff2'),url('webfonts/2E8B9A_3_0.woff') format('woff'),url('webfonts/2E8B9A_3_0.ttf') format('truetype');}

@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAGA,EAAE;EACD,WAAW,EAHF,6DAAS;;AAKnB,EAAE;EACD,WAAW,EAPJ,iCAAe",
+"sources": ["../sass/partials/_typography.sass"],
 "names": [],
 "file": "style.css"
 }
