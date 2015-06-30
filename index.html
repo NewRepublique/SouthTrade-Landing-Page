@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/autocomplete.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
@@ -431,9 +432,23 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/password.js"></script>
+    <script src="js/autocomplete.js"></script>
     <script src="js/app.js"></script>
     <script>
       $(document).foundation();
+    </script>
+    <script>
+        $('.venue-name').autoComplete({
+            minChars: 2,
+            source: function(term, suggest){
+                term = term.toLowerCase();
+                var choices = ['A Venue', 'Bars', 'Cool Bar', "Dumb Bar", "New Republique"];
+                var matches = [];
+                for (i=0; i<choices.length; i++)
+                    if (~choices[i].toLowerCase().indexOf(term)) matches.push(choices[i]);
+                suggest(matches);
+            }
+        });
     </script>
   </body>
 </html>

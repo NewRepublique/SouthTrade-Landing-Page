@@ -128,16 +128,21 @@ button[type="submit"] {
   display: none;
   opacity: 1;
   -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
   -webkit-transition: opacity, 400ms;
   -moz-transition: opacity, 400ms;
   -transition: opacity, 400ms;
   -webkit-transition: -webkit-transform, 400ms;
   -moz-transition: -webkit-transform, 400ms;
-  -transition: -webkit-transform, 400ms; }
+  -transition: -webkit-transform, 400ms;
+  -webkit-transition: transform, 400ms;
+  -moz-transition: transform, 400ms;
+  -transition: transform, 400ms; }
 
 .form-invisible {
   opacity: 0.5;
-  -webkit-transform: translate(0, 100px); }
+  -webkit-transform: translate(0, 100px);
+  transform: translate(0, 100px); }
 
 .passStrengthify {
   width: 100%;
@@ -227,12 +232,14 @@ button[type="submit"] {
     -transition: color, 400ms; }
   .block:hover {
     -webkit-transform: scale(1.06);
+    transform: scale(1.06);
     cursor: pointer;
     background-color: #272e31; }
 
 .chosen-block {
   background: #fff;
-  -webkit-transform: scale(1.06); }
+  -webkit-transform: scale(1.06);
+  transform: scale(1.06); }
   .chosen-block p, .chosen-block h4 {
     color: #000; }
   .chosen-block:hover {
@@ -242,7 +249,8 @@ button[type="submit"] {
 
 .reject-block {
   opacity: 0.5;
-  -webkit-transform: scale(0.95); }
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95); }
 
 .user-type {
   padding-left: 30px;
