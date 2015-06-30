@@ -37,21 +37,113 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
 .panel#hero h2 {
   margin-bottom: 30px; }
 
+input[type="text"], input[type="password"], input[type="tel"], input[type="email"], select {
+  background-color: transparent;
+  box-shadow: none;
+  -webkit-appearance: none;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding-left: 0;
+  font-size: 18px;
+  padding: 24px 0 24px 0;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #1c2123 !important; }
+  input[type="text"]:active, input[type="text"]:focus, input[type="password"]:active, input[type="password"]:focus, input[type="tel"]:active, input[type="tel"]:focus, input[type="email"]:active, input[type="email"]:focus, select:active, select:focus {
+    background-color: transparent;
+    border-color: #fff; }
+  input[type="text"]:hover, input[type="password"]:hover, input[type="tel"]:hover, input[type="email"]:hover, select:hover {
+    background-color: transparent; }
+
+select {
+  padding: 0;
+  height: 48px; }
+  select:hover {
+    border-color: #fff;
+    color: #1c2123;
+    cursor: pointer; }
+
+label {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 500;
+  color: #1c2123; }
+  label a {
+    color: #1c2123;
+    border-bottom: 1px dotted #1c2123; }
+
+form h4 {
+  font-family: "Sheldon", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  margin-bottom: 25px;
+  text-align: center;
+  margin-top: 35px; }
+
+form p {
+  font-size: 12px; }
+
+input[type="radio"] {
+  margin-top: 20px;
+  margin-bottom: 40px; }
+
+input[type="checkbox"] {
+  margin-right: 5px; }
+
+.radioLabel {
+  font-size: 15px;
+  text-transform: none;
+  position: relative;
+  top: 1px;
+  font-weight: 300; }
+
+button[type="submit"] {
+  display: block;
+  margin: 20px auto 0px auto;
+  padding: 10px 110px;
+  width: 100%;
+  background-color: #1c2123;
+  color: #fff;
+  font-family: "Sheldon", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 32px;
+  letter-spacing: 1px;
+  border-radius: 12px; }
+  button[type="submit"]:hover {
+    background-color: #272e31;
+    cursor: pointer; }
+
+::-webkit-input-placeholder {
+  font-weight: 300;
+  color: #1c2123;
+  opacity: 0.2; }
+
+::-moz-placeholder {
+  color: #909;
+  opacity: 1; }
+
+::-ms-input-placeholder {
+  color: #909; }
+
 .passStrengthify {
   width: 100%;
-  display: block !important; }
+  display: block !important;
+  font-size: 11px !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  top: 0px; }
   .passStrengthify .strength {
     width: 14.28571% !important;
     margin-right: 0 !important;
     display: inline-block;
-    height: 20px !important;
+    height: 39px !important;
     max-height: none !important;
     border-top: 1px solid #1c2123;
     border-bottom: 1px solid #1c2123;
     border-right: none;
     -webkit-transition: background-color, 600ms;
     -moz-transition: background-color, 600ms;
-    -transition: background-color, 600ms; }
+    -transition: background-color, 600ms;
+    position: relative;
+    top: 10px; }
   .passStrengthify .strength:last-of-type {
     border-right: 1px solid #1c2123; }
   .passStrengthify .strength:first-of-type {

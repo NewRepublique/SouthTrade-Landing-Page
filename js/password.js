@@ -415,7 +415,7 @@ Options:
 
       $out_el.append(
         $('<div>').append(
-          $('<span>').css('font-size', 'smaller')
+          $('<span>')
             .text(options.labels.passwordStrength).append(text)
         )
       );

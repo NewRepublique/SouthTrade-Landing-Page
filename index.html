@@ -187,12 +187,12 @@
           <div class="row">
             <div class="medium-6 columns">
               <label>First Name
-              <input type="text">
+              <input type="text" placeholder="Your first name">
               </label>
             </div>
             <div class="medium-6 columns">
               <label>Last Name
-              <input type="text">
+              <input type="text" placeholder="Your last name">
               </label>
             </div>
           </div>
@@ -202,7 +202,7 @@
             <div class="medium-12 columns">
               <label>
               Your Email Address
-                <input type="email">
+                <input type="email" placeholder="e.g. name@domain.com">
               </label>
             </div>
           </div>
@@ -212,7 +212,7 @@
             <div class="medium-6 columns">
               <label>
                 Choose a password
-                <input type="password">
+                <input type="password" placeholder="Enter a password">
               </label>
             </div>
             <div class="medium-6 columns">
@@ -223,13 +223,111 @@
 
           <div class="row">
             <div class="medium-12 columns">
-              <hr>
+              <h4>Enter Your Venue</h4>
             </div>
           </div>
 
-          <div class="row">
-            <div class="medium-12 columns">
-              <h4>Enter Your Venue</h4>
+            <!-- Venue Name -->
+            <div class="row">
+              <div class="medium-12 columns">
+                <label>
+                  Venue Name
+                  <input type="text" placeholder="Enter the name of your venue">
+                </label>
+              </div>
+            </div>
+
+            <!-- Type of Venue -->
+            <div class="row">
+              <div class="large-6 columns">
+                <label>Type of Premise</label>
+                <input type="radio" name="premiseType" value="On Premise" id="onPremise" checked><label for="onPremise" class="radioLabel">On Premise</label>
+                <input type="radio" name="premiseType" value="Off Premise" id="offPremise"><label for="offPremise" class="radioLabel">Off Premise</label>
+                </div>
+            </div>
+
+            <!-- Capacity and Phone Number of Venue -->
+            <div class="row">
+               <div class="large-6 columns">
+                 <label>Capacity of Venue
+                   <select>
+                     <option value="0-60">0-60</option>
+                     <option value="61-120">61-120</option>
+                     <option value="121-180">121-180</option>
+                     <option value="181-300">181-300</option>
+                     <option value="301-420">301-420</option>
+                     <option value="421-540">421-540</option>
+                     <option value="541+">541+</option>
+                   </select>
+                 </label>
+               </div>
+               <div class="large-6 columns">
+                 <label>
+                   Venue Phone Number
+                  <input type="tel" placeholder="e.g. 02912345678">
+                 </label>
+               </div>
+             </div>
+
+             <!-- Street Address #1 -->
+            <div class="row">
+              <div class="medium-12 columns">
+                <label>
+                  Street Address of Venue
+                  <input type="text" placeholder="e.g. Level 3/63 William Street">
+                </label>
+              </div>
+            </div>
+
+            <!-- Street Address #2 -->
+            <div class="row">
+              <div class="medium-6 columns">
+                <label>
+                  Suburb/City
+                  <input type="text" placeholder="Enter your suburb or city">
+                </label>
+              </div>
+              <div class="medium-6 columns">
+                <label>
+                  State
+                  <select>
+                     <option value="NSW">NSW</option>
+                     <option value="VIC">VIC</option>
+                     <option value="ACT">ACT</option>
+                     <option value="SA">SA</option>
+                     <option value="NT">NT</option>
+                     <option value="WA">WA</option>
+                     <option value="TAS">TAS</option>
+                   </select>
+                </label>
+              </div>
+            </div>
+
+            <!-- Sales Rep -->
+            <div class="row">
+              <div class="medium-12 columns">
+                <label>
+                  Name of your SouthTrade Sales Rep
+                  <input type="text" placeholder="Name of your rep">
+                </label>
+              </div>
+            </div>
+
+            <!-- Terms and Conditions -->
+            <div class="row">
+              <div class="medium-12 columns">
+                <label class="radioLabel">
+                  <input type="checkbox">
+                  Yes I have read the <a href="#">terms and conditions</a>
+                </label>
+              </div>
+            </div>
+            
+            <!-- submit -->
+            <div class="row">
+              <div class="medium-12 columns">
+                <button type="submit">Sign up</button>
+              </div>
             </div>
           </div>
         </form>
