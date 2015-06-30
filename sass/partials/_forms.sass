@@ -31,6 +31,8 @@ label
 	a 
 		color: $black 
 		border-bottom: 1px dotted $black
+		&:hover 
+			color: $black
 
 form h4 
 	font-family: $heading
@@ -82,3 +84,13 @@ button[type="submit"]
 
 ::-ms-input-placeholder
 	color: #909
+
+.manager-form, .staff-form
+	display: none
+	opacity: 1
+	-webkit-transform: translate(0, 0)
+	+animate(opacity, 400ms)
+	+animate(-webkit-transform, 400ms)
+.form-invisible 
+	opacity: 0.5
+	-webkit-transform: translate(0, 100px)

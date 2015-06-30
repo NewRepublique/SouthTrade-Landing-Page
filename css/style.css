@@ -71,6 +71,8 @@ label {
   label a {
     color: #1c2123;
     border-bottom: 1px dotted #1c2123; }
+    label a:hover {
+      color: #1c2123; }
 
 form h4 {
   font-family: "Sheldon", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -121,6 +123,21 @@ button[type="submit"] {
 
 ::-ms-input-placeholder {
   color: #909; }
+
+.manager-form, .staff-form {
+  display: none;
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+  -webkit-transition: opacity, 400ms;
+  -moz-transition: opacity, 400ms;
+  -transition: opacity, 400ms;
+  -webkit-transition: -webkit-transform, 400ms;
+  -moz-transition: -webkit-transform, 400ms;
+  -transition: -webkit-transform, 400ms; }
+
+.form-invisible {
+  opacity: 0.5;
+  -webkit-transform: translate(0, 100px); }
 
 .passStrengthify {
   width: 100%;
@@ -196,9 +213,36 @@ button[type="submit"] {
 
 .block {
   background: #1c2123;
+  -webkit-transition: background, 400ms;
+  -moz-transition: background, 400ms;
+  -transition: background, 400ms;
+  -webkit-transition: opacity, 400ms;
+  -moz-transition: opacity, 400ms;
+  -transition: opacity, 400ms;
   padding: 30px 40px 10px 40px; }
   .block p, .block h4 {
-    color: #fff; }
+    color: #fff;
+    -webkit-transition: color, 400ms;
+    -moz-transition: color, 400ms;
+    -transition: color, 400ms; }
+  .block:hover {
+    -webkit-transform: scale(1.06);
+    cursor: pointer;
+    background-color: #272e31; }
+
+.chosen-block {
+  background: #fff;
+  -webkit-transform: scale(1.06); }
+  .chosen-block p, .chosen-block h4 {
+    color: #000; }
+  .chosen-block:hover {
+    background-color: #fff; }
+    .chosen-block:hover p, .chosen-block:hover h4 {
+      color: #000; }
+
+.reject-block {
+  opacity: 0.5;
+  -webkit-transform: scale(0.95); }
 
 .user-type {
   padding-left: 30px;
@@ -212,6 +256,9 @@ footer {
     font-family: "BodoniBT-Book", "Georgia", serif;
     margin: 0;
     color: #8a9193; }
+
+#sign-up {
+  min-height: 800px; }
 
 .header-image {
   margin-bottom: 36px;

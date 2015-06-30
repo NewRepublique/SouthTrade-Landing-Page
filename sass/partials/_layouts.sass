@@ -38,9 +38,31 @@
 
 .block 
 	background: $black
+	+animate(background, 400ms)
+	+animate(opacity, 400ms)
 	padding: 30px 40px 10px 40px
 	p, h4
 		color: #fff
+		+animate(color, 400ms)
+	&:hover 
+		-webkit-transform: scale(1.06)
+		cursor: pointer
+		background-color: lighten($black, 5%)
+
+
+.chosen-block 
+	background: #fff
+	-webkit-transform: scale(1.06)
+	p, h4 
+		color: #000
+	&:hover
+		background-color: #fff
+		p, h4 
+			color: #000
+
+.reject-block 
+	opacity: 0.5
+	-webkit-transform: scale(0.95)
 .user-type 
 	padding-left: 30px
 	margin-bottom: 30px
@@ -53,3 +75,6 @@ footer
 		font-family: $serif
 		margin: 0
 		color: $light-grey
+
+#sign-up
+	min-height: 800px
