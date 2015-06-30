@@ -21,7 +21,7 @@ $(document).ready(function(){
 	// terms and conditions link 
 	$('.terms').click(function(e){
 		e.preventDefault()
-		// open terms modal
+		// open terms pdf (Sartora job)
 	});
 
 	$('.block.manager').click(function(e){
@@ -31,8 +31,12 @@ $(document).ready(function(){
 		
 		setTimeout(function(){
 			$('.hide-during-signup').fadeOut(500, function(){
-				$('.manager-form').fadeIn(300);
-				$('.manager-form').removeClass('form-invisible')
+				$('.manager-form').fadeIn(300, function(){
+					$('html, body').animate({
+				        scrollTop: $("#manager-target").offset().top
+				    }, 500);
+				});
+				$('.manager-form').removeClass('form-invisible')				
 			})
 		}, 800)	
 	})
@@ -44,7 +48,11 @@ $(document).ready(function(){
 		
 		setTimeout(function(){
 			$('.hide-during-signup').fadeOut(500, function(){
-				$('.staff-form').fadeIn(300);
+				$('.staff-form').fadeIn(300, function(){
+					$('html, body').animate({
+				        scrollTop: $("#staff-target").offset().top
+				    }, 500);
+				});
 				$('.staff-form').removeClass('form-invisible')
 			})
 		}, 800)	
