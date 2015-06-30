@@ -10,6 +10,11 @@ h2 {
 h3 {
   font-size: 25px; }
 
+h4 {
+  font-size: 35px;
+  font-family: "BodoniBT-Book", "Georgia", serif;
+  color: #1c2123; }
+
 .subheading {
   font-family: "BodoniBT-Book", "Georgia", serif;
   color: #8a9193; }
@@ -21,6 +26,13 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   color: #fff; }
 .reverse p {
   color: #fff; }
+
+.yellow h1, .yellow h2, .yellow h3, .yellow h4, .yellow h5, .yellow h6 {
+  color: #1c2123; }
+.yellow p {
+  color: #1c2123; }
+.yellow h2 {
+  margin-bottom: 30px; }
 
 .panel#hero h2 {
   margin-bottom: 30px; }
@@ -40,6 +52,9 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
 .panel.grey {
   background-color: #394144; }
 
+.panel.yellow {
+  background-color: #fec371; }
+
 .prize-list {
   margin-top: 115px;
   text-align: center; }
@@ -50,6 +65,41 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
     font-size: 35px;
     color: #1c2123;
     margin-top: 30px; }
+
+.how-it-works {
+  padding-top: 70px; }
+
+.enter-callout {
+  text-align: center; }
+
+.sign-up-as {
+  margin-top: 20px;
+  font-family: "Sheldon", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 35px;
+  margin-bottom: 50px; }
+  .sign-up-as span {
+    display: block; }
+  .sign-up-as img {
+    margin-top: 30px; }
+
+.block {
+  background: #1c2123;
+  padding: 30px 40px 10px 40px; }
+  .block p, .block h4 {
+    color: #fff; }
+
+.user-type {
+  padding-left: 30px;
+  margin-bottom: 30px; }
+
+footer {
+  background: #1c2123;
+  padding: 20px 0;
+  text-align: center; }
+  footer p {
+    font-family: "BodoniBT-Book", "Georgia", serif;
+    margin: 0;
+    color: #8a9193; }
 
 .header-image {
   margin-bottom: 36px;
@@ -73,5 +123,33 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   @media screen and (max-width: 1030px) {
     .hero-illo {
       display: none; } }
+
+.illo-hiw {
+  position: relative;
+  top: 10px;
+  margin-bottom: 160px; }
+  @media screen and (max-width: 1030px) {
+    .illo-hiw {
+      margin-bottom: 0; } }
+
+.illo-head {
+  position: absolute; }
+
+.button {
+  width: 100%;
+  display: block;
+  font-family: "Sheldon", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #1c2123;
+  font-size: 28px;
+  padding: 10px;
+  border-radius: 12px; }
+  .button:hover {
+    cursor: pointer; }
+
+.button.primary {
+  background-color: #bad6eb; }
+  .button.primary:hover {
+    background-color: #f5f9fc;
+    color: #1c2123; }
 
 /*# sourceMappingURL=style.css.map */
