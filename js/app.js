@@ -68,4 +68,12 @@ $(document).ready(function(){
 		$('.chosen-block').removeClass('chosen-block')
 		$('.reject-block').removeClass('reject-block')
 	})
+
 })
+
+// note to Sartora: call this function on successful form submit
+	function formSent(){
+		$('.form-step-1').fadeOut(300, function(){
+			$('.form-step-2').fadeIn(300);
+		});
+	}
