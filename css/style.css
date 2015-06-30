@@ -1,5 +1,8 @@
 p {
   color: #8a9193; }
+  @media screen and (max-width: 1030px) {
+    p {
+      text-align: center; } }
 
 h2 {
   font-family: "Sheldon", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -21,6 +24,9 @@ h4 {
 
 h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   color: #1c2123; }
+@media screen and (max-width: 1030px) {
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center; } }
 
 .reverse h1 span, .reverse h2 span, .reverse h3 span, .reverse h4 span, .reverse h5 span, .reverse h6 span {
   color: #fff; }
@@ -128,6 +134,7 @@ button[type="submit"] {
   opacity: 0.2; }
 
 .manager-form, .staff-form {
+  display: none;
   opacity: 1;
   -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
@@ -142,6 +149,7 @@ button[type="submit"] {
   -transition: transform, 400ms; }
 
 .form-invisible {
+  opacity: 0.5;
   -webkit-transform: translate(0, 100px);
   transform: translate(0, 100px);
   -webkit-transition: opacity, 400ms;
@@ -220,6 +228,9 @@ small.error {
 
 .content-panel {
   padding: 100px 0; }
+  @media screen and (max-width: 1030px) {
+    .content-panel {
+      padding: 50px 20px; } }
 
 .panel.grey {
   background-color: #394144; }
@@ -240,6 +251,9 @@ small.error {
 
 .how-it-works {
   padding-top: 70px; }
+  @media screen and (max-width: 1030px) {
+    .how-it-works {
+      padding-top: 30px; } }
 
 .enter-callout {
   text-align: center; }
@@ -273,6 +287,13 @@ small.error {
     transform: scale(1.06);
     cursor: pointer;
     background-color: #272e31; }
+  @media screen and (max-width: 1090px) {
+    .block {
+      margin-bottom: 20px; } }
+
+@media screen and (max-width: 1030px) {
+  .hide-for-small {
+    display: none; } }
 
 .chosen-block {
   background: #fff;
@@ -293,6 +314,9 @@ small.error {
 .user-type {
   padding-left: 30px;
   margin-bottom: 30px; }
+  @media screen and (max-width: 1030px) {
+    .user-type {
+      padding-left: 0; } }
 
 footer {
   background: #1c2123;
@@ -312,6 +336,9 @@ footer {
   @media screen and (max-width: 1090px) {
     .header-image {
       width: 200px; } }
+  @media screen and (max-width: 1030px) {
+    .header-image {
+      margin: 0 auto 35px auto; } }
 
 .hero-illo {
   position: absolute;
@@ -335,7 +362,8 @@ footer {
   margin-bottom: 160px; }
   @media screen and (max-width: 1030px) {
     .illo-hiw {
-      margin-bottom: 0; } }
+      margin: 0 auto 30px auto;
+      display: block; } }
 
 .illo-head {
   position: absolute; }

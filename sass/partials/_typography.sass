@@ -3,6 +3,8 @@ $heading: 'Sheldon', "Helvetica Neue", "Helvetica", "Arial", sans-serif
 
 p 
 	color: $light-grey
+	+at($small)
+		text-align: center
 
 h2 
 	font-family: $heading
@@ -24,6 +26,8 @@ h4
 h1, h2, h3, h4, h5, h6
 	span
 		color: $black
+	+at($small)
+		text-align: center
 
 // class to reverse out the <span> in headings
 .reverse

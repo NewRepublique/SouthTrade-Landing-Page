@@ -6,6 +6,8 @@
 	background-color: $black
 .content-panel 
 	padding: 100px 0
+	+at($small)
+		padding: 50px 20px
 .panel.grey 
 	background-color: $grey
 .panel.yellow 
@@ -24,6 +26,8 @@
 
 .how-it-works 
 	padding-top: 70px
+	+at($small)
+		padding-top: 30px
 .enter-callout 
 	text-align: center
 .sign-up-as 
@@ -49,7 +53,12 @@
 		transform: scale(1.06)
 		cursor: pointer
 		background-color: lighten($black, 5%)
+	+at($medium)
+		margin-bottom: 20px
 
+.hide-for-small 
+	+at($small)
+		display: none
 
 .chosen-block 
 	background: #fff
@@ -69,6 +78,8 @@
 .user-type 
 	padding-left: 30px
 	margin-bottom: 30px
+	+at($small)
+		padding-left: 0
 
 footer 
 	background: $black 
