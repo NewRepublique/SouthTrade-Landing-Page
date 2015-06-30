@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/autocomplete.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
@@ -172,26 +173,29 @@
         </div>
       </div>
     </div>
-    <div class="manager-form form-invisible">
+    <div class="manager-form form-invisible sign-up-form">
       <div class="row">
         <div class="medium-8 medium-centered columns">
-          <form action="" id="manager-form">
+          <form action="" id="manager-form" data-abide>
             
             <div class="row">
               <div class="medium-12 columns">
-                <h4>Create Account</h4>
+              <a href="#" class="form-back"><i class="fa fa-chevron-left"></i> Go back</a>
+                <h4>Create Manager Account</h4>
               </div>
             </div>
             <!-- Name -->
             <div class="row">
               <div class="medium-6 columns">
                 <label>First Name
-                <input type="text" placeholder="Your first name">
+                <input type="text" placeholder="Your first name" required>
                 </label>
+                <small class="error">Please enter your first name.</small>
               </div>
               <div class="medium-6 columns">
                 <label>Last Name
-                <input type="text" placeholder="Your last name">
+                <input type="text" placeholder="Your last name" required>
+                <small class="error">Please enter your last name.</small>
                 </label>
               </div>
             </div>
@@ -201,8 +205,9 @@
               <div class="medium-12 columns">
                 <label>
                 Your Email Address
-                  <input type="email" placeholder="e.g. name@domain.com">
+                  <input type="email" placeholder="e.g. name@domain.com" required pattern="email">
                 </label>
+                <small class="error">Please enter a valid email address.</small>
               </div>
             </div>
 
@@ -211,8 +216,9 @@
               <div class="medium-6 columns">
                 <label>
                   Choose a password
-                  <input type="password" placeholder="Enter a password" class="manager-password">
+                  <input type="password" placeholder="Enter a password" class="manager-password" required>
                 </label>
+                <small class="error">Please choose a password.</small>
               </div>
               <div class="medium-6 columns">
                 <!-- output for password strength plugin -->
@@ -231,8 +237,9 @@
                 <div class="medium-12 columns">
                   <label>
                     Venue Name
-                    <input type="text" placeholder="Enter the name of your venue" class="venue-name">
+                    <input type="text" placeholder="Enter the name of your venue" class="venue-name" required>
                   </label>
+                  <small class="error">Please enter the name of the venue you work at.</small>
                 </div>
               </div>
 
@@ -266,8 +273,9 @@
                  <div class="large-12 columns">
                    <label>
                      Venue Phone Number
-                    <input type="tel" placeholder="e.g. 02912345678">
+                    <input type="tel" placeholder="e.g. 02912345678" required pattern="number">
                    </label>
+                   <small class="error">Please enter a phone number.</small>
                  </div>
                </div>
 
@@ -276,8 +284,9 @@
                 <div class="medium-12 columns">
                   <label>
                     Street Address of Venue
-                    <input type="text" placeholder="e.g. Level 3/63 William Street">
+                    <input type="text" placeholder="e.g. Level 3/63 William Street" required>
                   </label>
+                  <small class="error">Please enter an address.</small>
                 </div>
               </div>
 
@@ -286,8 +295,9 @@
                 <div class="medium-6 columns">
                   <label>
                     Suburb/City
-                    <input type="text" placeholder="Enter your suburb or city">
+                    <input type="text" placeholder="Enter your suburb or city" required>
                   </label>
+                  <small class="error">Please enter a suburb/city.</small>
                 </div>
                 <div class="medium-6 columns">
                   <label>
@@ -310,8 +320,9 @@
                 <div class="medium-12 columns">
                   <label>
                     Name of your SouthTrade Sales Rep
-                    <input type="text" placeholder="Name of your rep">
+                    <input type="text" placeholder="Name of your rep" required>
                   </label>
+                  <small class="error">Please enter the name of your STI sales rep.</small>
                 </div>
               </div>
 
@@ -319,9 +330,10 @@
               <div class="row">
                 <div class="medium-12 columns">
                   <label class="radioLabel">
-                    <input type="checkbox">
+                    <input type="checkbox" required>
                     Yes I have read the <a href="#" class="terms">terms and conditions</a>
                   </label>
+
                 </div>
               </div>
               
@@ -337,26 +349,29 @@
       </div>      
     </div>
 
-    <div class="staff-form form-invisible">
+    <div class="staff-form form-invisible sign-up-form">
       <div class="row">
         <div class="medium-8 medium-centered columns">
-          <form action="" id="staff-form">
+          <form action="" id="staff-form" data-abide>
             
             <div class="row">
               <div class="medium-12 columns">
-                <h4>Create Account</h4>
+                <a href="#" class="form-back"><i class="fa fa-chevron-left"></i> Go back</a>
+                <h4>Create Staff Member Account</h4>
               </div>
             </div>
             <!-- Name -->
             <div class="row">
               <div class="medium-6 columns">
                 <label>First Name
-                <input type="text" placeholder="Your first name">
+                <input type="text" placeholder="Your first name" required>
                 </label>
+                <small class="error">Please enter your first name.</small>
               </div>
               <div class="medium-6 columns">
                 <label>Last Name
-                <input type="text" placeholder="Your last name">
+                <input type="text" placeholder="Your last name" required>
+                <small class="error">Please enter your last name.</small>
                 </label>
               </div>
             </div>
@@ -366,8 +381,9 @@
               <div class="medium-12 columns">
                 <label>
                 Your Email Address
-                  <input type="email" placeholder="e.g. name@domain.com">
+                  <input type="email" placeholder="e.g. name@domain.com" required pattern="email">
                 </label>
+                <small class="error">Please enter a valid email address.</small>
               </div>
             </div>
 
@@ -376,8 +392,9 @@
               <div class="medium-6 columns">
                 <label>
                   Choose a password
-                  <input type="password" placeholder="Enter a password" class="staff-password">
+                  <input type="password" placeholder="Enter a password" class="staff-password" required>
                 </label>
+                <small class="error">Please choose a password.</small>
               </div>
               <div class="medium-6 columns">
                 <!-- output for password strength plugin -->
@@ -396,8 +413,9 @@
                 <div class="medium-12 columns">
                   <label>
                     Venue Name
-                    <input type="text" placeholder="Enter the name of your venue" class="venue-name">
+                    <input type="text" placeholder="Enter the name of your venue" class="venue-name" required>
                   </label>
+                  <small class="error">Please enter a venue name.</small>
                 </div>
               </div>
 
@@ -405,7 +423,7 @@
               <div class="row">
                 <div class="medium-12 columns">
                   <label class="radioLabel">
-                    <input type="checkbox">
+                    <input type="checkbox" required>
                     Yes I have read the <a href="#" class="terms">terms and conditions</a>
                   </label>
                 </div>

@@ -76,8 +76,8 @@ Options:
         // These next two should be the same size ...
         levels = ['Very weak', 'Very weak', 'Weak', 'Weak', 'Moderate', 
           'Good', 'Strong', 'Very strong'],
-        colours = ['transparent', '#751d20', '#712320', '#633a20', '#584d20', 
-          '#545521', '#486c23', '#457223'],
+        colours = ['transparent', '#e9686a', '#e9686a', '#e9686a', '#f19768', 
+          '#f19768', '#729072', '#729072'],
         // and this one should be one fewer.
         // see presets.
         tests = presets[0],

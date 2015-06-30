@@ -50,5 +50,14 @@ $(document).ready(function(){
 		}, 800)	
 	})
 
-	
+	$('.form-back').click(function(e){
+		e.preventDefault()
+		$('.sign-up-form:visible').fadeOut(300, function(){
+			$('.hide-during-signup').fadeIn(500, function(){
+				$('.staff-form, .manager-form').addClass('form-invisible')
+			})
+		});
+		$('.chosen-block').removeClass('chosen-block')
+		$('.reject-block').removeClass('reject-block')
+	})
 })

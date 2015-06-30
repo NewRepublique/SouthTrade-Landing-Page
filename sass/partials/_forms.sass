@@ -37,7 +37,7 @@ label
 form h4 
 	font-family: $heading
 	margin-bottom: 25px
-	text-align: center
+	text-align: left
 	margin-top: 35px
 
 form p 
@@ -79,14 +79,17 @@ button[type="submit"]
 	opacity: 0.2
 
 ::-moz-placeholder
-	color: #909
-	opacity: 1
+	font-weight: 300
+	color: $black
+	opacity: 0.2
 
 ::-ms-input-placeholder
-	color: #909
+	font-weight: 300
+	color: $black
+	opacity: 0.2
 
 .manager-form, .staff-form
-	display: none
+	//display: none
 	opacity: 1
 	-webkit-transform: translate(0, 0)
 	transform: translate(0, 0)
@@ -94,6 +97,35 @@ button[type="submit"]
 	+animate(-webkit-transform, 400ms)
 	+animate(transform, 400ms)
 .form-invisible 
-	opacity: 0.5
+	//opacity: 0.5
 	-webkit-transform: translate(0, 100px)
 	transform: translate(0, 100px)
+	+animate(opacity, 400ms)
+	+animate(-webkit-transform, 400ms)
+	+animate(transform, 400ms)
+.error 
+	color: #d0141e!important
+	background: none!important
+	input[type="text"], input[type="password"], input[type="tel"], input[type="email"], select
+		border-color: #d0141e
+small.error
+	padding: 0!important
+	margin: 0!important
+	position: relative
+	top: -20px
+
+.form-back 
+	color: $black
+	font-size: 12px
+	text-transform: uppercase
+	font-weight: 500
+	i 
+		font-size: 10px
+		margin-right: 3px
+	&:hover 
+		color: lighten(#000, 25%)
+
+.sign-up-form form
+	border-top: 1px solid #d2a366
+	margin-top: 30px
+	padding-top: 30px
