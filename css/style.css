@@ -9,9 +9,16 @@ h2 {
   color: #fec371;
   font-size: 110px;
   line-height: 106px; }
+  @media screen and (max-width: 780px) {
+    h2 {
+      font-size: 60px;
+      line-height: 58px; } }
 
 h3 {
   font-size: 25px; }
+  @media screen and (max-width: 780px) {
+    h3 {
+      font-size: 20px; } }
 
 h4 {
   font-size: 35px;
@@ -222,6 +229,9 @@ small.error {
   @media screen and (max-width: 1090px) {
     .panel {
       padding: 50px 20px; } }
+  @media screen and (max-width: 780px) {
+    .panel {
+      padding: 20px 20px; } }
 
 .panel#hero {
   background-color: #1c2123; }
@@ -241,6 +251,9 @@ small.error {
 .prize-list {
   margin-top: 115px;
   text-align: center; }
+  @media screen and (max-width: 1030px) {
+    .prize-list {
+      margin-top: 20px; } }
   .prize-list img {
     display: block;
     margin: 0 auto; }

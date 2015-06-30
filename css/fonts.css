@@ -4,7 +4,7 @@
  * 
  * The fonts listed in this notice are subject to the End User License
  * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed Webfonts(s).
+ * explicitly restricted from using the Licensed ../fonts(s).
  * 
  * You may obtain a valid license at the URLs below.
  * 
@@ -32,7 +32,7 @@
  * 
  * License: http://www.myfonts.com/viewlicense?type=web&buildid=2789703
  * Licensed pageviews: 10,000
- * Webfonts copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * ../fonts copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
  * 
  * © 2014 MyFonts Inc
 */
@@ -63,13 +63,13 @@
   
 @font-face {font-family: 'BodoniBT-BoldCondensed';src: url('../fonts/2A9147_6_0.eot');src: url('../fonts/2A9147_6_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2A9147_6_0.woff') format('woff'),url('../fonts/2A9147_6_0.ttf') format('truetype');}
 
-@font-face {font-family: 'SheldonPictures';src: url('webfonts/2E8B9A_0_0.eot');src: url('webfonts/2E8B9A_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E8B9A_0_0.woff2') format('woff2'),url('webfonts/2E8B9A_0_0.woff') format('woff'),url('webfonts/2E8B9A_0_0.ttf') format('truetype');}
+@font-face {font-family: 'SheldonPictures';src: url('../fonts/2E8B9A_0_0.eot');src: url('../fonts/2E8B9A_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2E8B9A_0_0.woff2') format('woff2'),url('../fonts/2E8B9A_0_0.woff') format('woff'),url('../fonts/2E8B9A_0_0.ttf') format('truetype');}
  
   
-@font-face {font-family: 'SheldonFly';src: url('webfonts/2E8B9A_1_0.eot');src: url('webfonts/2E8B9A_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E8B9A_1_0.woff2') format('woff2'),url('webfonts/2E8B9A_1_0.woff') format('woff'),url('webfonts/2E8B9A_1_0.ttf') format('truetype');}
+@font-face {font-family: 'SheldonFly';src: url('../fonts/2E8B9A_1_0.eot');src: url('../fonts/2E8B9A_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2E8B9A_1_0.woff2') format('woff2'),url('../fonts/2E8B9A_1_0.woff') format('woff'),url('../fonts/2E8B9A_1_0.ttf') format('truetype');}
  
   
-@font-face {font-family: 'Sheldon';src: url('webfonts/2E8B9A_2_0.eot');src: url('webfonts/2E8B9A_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E8B9A_2_0.woff2') format('woff2'),url('webfonts/2E8B9A_2_0.woff') format('woff'),url('webfonts/2E8B9A_2_0.ttf') format('truetype');}
+@font-face {font-family: 'Sheldon';src: url('../fonts/2E8B9A_2_0.eot');src: url('../fonts/2E8B9A_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2E8B9A_2_0.woff2') format('woff2'),url('../fonts/2E8B9A_2_0.woff') format('woff'),url('../fonts/2E8B9A_2_0.ttf') format('truetype');}
  
   
-@font-face {font-family: 'SheldonFeather';src: url('webfonts/2E8B9A_3_0.eot');src: url('webfonts/2E8B9A_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E8B9A_3_0.woff2') format('woff2'),url('webfonts/2E8B9A_3_0.woff') format('woff'),url('webfonts/2E8B9A_3_0.ttf') format('truetype');}
+@font-face {font-family: 'SheldonFeather';src: url('../fonts/2E8B9A_3_0.eot');src: url('../fonts/2E8B9A_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2E8B9A_3_0.woff2') format('woff2'),url('../fonts/2E8B9A_3_0.woff') format('woff'),url('../fonts/2E8B9A_3_0.ttf') format('truetype');}
